@@ -1,0 +1,1 @@
+CREATE TABLE `messagerie`.`messages` ( `id` INT NOT NULL AUTO_INCREMENT , `creation_time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP , `user` VARCHAR(255) NOT NULL , `content` TEXT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
